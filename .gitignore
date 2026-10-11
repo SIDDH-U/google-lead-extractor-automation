@@ -33,6 +33,7 @@ scraper.log
 tmp_test/
 scratch/
 .tmp/
+push_to_github.bat
 
 # OS and IDE files
 .DS_Store
