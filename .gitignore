@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Scraper Database & Data Backups
+*.db
+*.sqlite3
+leads.db
+leads.json
+scraper_status.json
+scraper_status.tmp
+*.flag
+
+# Exported Spreadsheets
+*.xlsx
+*.csv
+!examples/*.xlsx
+
+# Logs
+*.log
+scraper.log
+
+# Temporary test folders & files
+tmp_test/
+scratch/
+.tmp/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+*.lnk
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.local
